@@ -1,5 +1,19 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BinaryTree bt = new BinaryTree();
+        bt.add(2);
+        bt.add(4);
+        bt.add(10);
+        bt.add(22);
+        bt.add(1);
+
+        System.out.println(bt.max());
+        System.out.println(bt.min());
+
+
+        Kucharz kucharz = new Kucharz();
+        kucharz.max_difference(1,10,20);
+
+
     }
 }
