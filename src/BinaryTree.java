@@ -49,5 +49,20 @@ public class BinaryTree {
         return node.value;
     }
 
+    public boolean contains(int value){
+        return contains(root,value);
+    }
+    public boolean contains(Node node,int value){
+        if(node == null){
+            return false;
+        }
+        if(node.value==value)
+            return true;
+        if (value < node.value){
+            return contains(node.left,value);
+        }else{
+            return contains(node.right,value);
+        }
+    }
 
 }

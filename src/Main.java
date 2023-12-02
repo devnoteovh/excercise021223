@@ -7,6 +7,8 @@ public class Main {
         bt.add(22);
         bt.add(1);
 
+        System.out.println(bt.contains(22));
+        System.out.println(bt.contains(11));
         System.out.println(bt.max());
         System.out.println(bt.min());
 
