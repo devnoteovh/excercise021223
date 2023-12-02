@@ -14,8 +14,7 @@ public class Main {
 
 
         Kucharz kucharz = new Kucharz();
-        kucharz.max_difference(1,10,20);
-
+        kucharz.max_difference(1, 10, 20);
 
     }
 }
